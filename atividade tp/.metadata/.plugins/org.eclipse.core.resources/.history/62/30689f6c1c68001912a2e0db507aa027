@@ -1,0 +1,41 @@
+package view;
+
+import model.pessoa;
+
+public class execucao {
+	
+	public static void main (String[] args) {
+		pessoa pessoa = new pessoa();
+		pessoa.setNome("Marcos");
+		
+		System.out.println(pessoa.getNome());
+	//------------------------ //
+		pessoa pessoa = new pessoa();
+		pessoa.setEndereco("Avenida");
+		
+		System.out.println(pessoa.getEndereco());
+		//--------------------//
+		pessoa pessoa = new pessoa();
+		pessoa.setBairro("Limoreio");
+		
+		System.out.println(pessoa.getBairro());
+	//------------------------ //
+		pessoa pessoa = new pessoa();
+		pessoa.setCep(00000-000);
+		
+		System.out.println(pessoa.getCep());
+		//--------------------//
+		pessoa pessoa = new pessoa();
+		pessoa.setCidade("Sao Paulo");
+		
+		System.out.println(pessoa.getCidade());
+	//------------------------ //
+		pessoa pessoa = new pessoa();
+		pessoa.setEstado("SP");
+		
+		System.out.println(pessoa.getEstado());
+		//--------------------//
+		
+	}
+	
+}

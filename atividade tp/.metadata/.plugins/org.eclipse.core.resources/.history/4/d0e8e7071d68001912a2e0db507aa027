@@ -1,0 +1,16 @@
+package view;
+
+import model.pessoa;
+
+public class execucao {
+	
+	public static void main (String[] args) {
+		pessoa pessoa = new pessoa();
+		pessoa.setNome("Marcos");
+		
+		System.out.println(pessoa.getNome());
+	
+		
+	}
+	
+}
